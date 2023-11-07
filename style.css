@@ -43,6 +43,8 @@ section div{
 }
 
 #content{
+	display: flex;
+	flex-direction: column;
 	border-left: solid;
 	border-top: none;
 	border-color: lightgray;
@@ -66,6 +68,7 @@ footer{
 	position: fixed;
 	bottom: 0;
 	height: 50px;
+	background-color: white;
 
 }
 
@@ -84,3 +87,26 @@ footer{
 	}
 }
 
+
+
+
+.experience{
+	display:flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin:0;
+	padding:0;
+}
+
+.experience div{
+	display: flex;
+	flex-direction: column;
+	margin:0;
+	padding:0;
+	padding-bottom: 50px;
+}
+
+.experience div *{
+	margin:0;
+	padding:0;
+}
